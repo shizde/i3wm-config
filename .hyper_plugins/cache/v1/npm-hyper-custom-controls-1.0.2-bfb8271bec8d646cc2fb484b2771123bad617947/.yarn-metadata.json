@@ -1,0 +1,28 @@
+{
+  "manifest": {
+    "name": "hyper-custom-controls",
+    "description": "Add Mac-like controls to Hyper Terminal, but highly customizable",
+    "homepage": "https://github.com/guilhermerodz/hyper-custom-controls",
+    "version": "1.0.2",
+    "main": "index.js",
+    "license": "MIT",
+    "author": {
+      "name": "Guilherme Rodz"
+    },
+    "_registry": "npm",
+    "_loc": "/home/rperez/.hyper_plugins/cache/v1/npm-hyper-custom-controls-1.0.2-bfb8271bec8d646cc2fb484b2771123bad617947/package.json",
+    "readmeFilename": "readme.md",
+    "readme": "# hyper-custom-controls\n\n> Add Mac-like controls to Hyper Terminal, but highly customizable\n\n![](https://raw.githubusercontent.com/guilhermerodz/hyper-custom-controls/master/media/result.png)\n\n## Configuration\n\nIn your `~/.hyper.js`, you can configure settings for `hyper-custom-controls`.\n\n```js\nmodules.exports = {\n  config: {\n    // NOTE: All properties below are optional and have a default value.\n    hyperCustomControls: {\n      side: 'left', // Default: 'left'\n      circleSize: 11, // Default: 11\n      circleGap: 7.5, // Default: 7.5\n      distanceToSide: 15, // Default: 15\n      opacity: 1, // Default: 1\n      hoverOpacity: 0.5, // Default: 0.5\n\n      // Default controls below:\n      // NOTE: You can remove a control, if you want to.\n      controls: [\n        {\n          type: 'close',\n          color: '#F24F55',\n        },\n        {\n          type: 'minimize',\n          color: '#FBC536',\n        },\n        {\n          type: 'maximize',\n          color: '#39EA48',\n        },\n      ],\n    },\n  },\n};\n```\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-custom-controls/-/hyper-custom-controls-1.0.2.tgz#bfb8271bec8d646cc2fb484b2771123bad617947",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-custom-controls/-/hyper-custom-controls-1.0.2.tgz",
+    "hash": "bfb8271bec8d646cc2fb484b2771123bad617947",
+    "registry": "npm",
+    "packageName": "hyper-custom-controls"
+  },
+  "registry": "npm",
+  "hash": "bfb8271bec8d646cc2fb484b2771123bad617947"
+}
